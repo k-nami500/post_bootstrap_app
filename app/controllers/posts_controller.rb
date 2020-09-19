@@ -28,7 +28,7 @@ class PostsController < ApplicationController
 
   def destroy
     @post.destroy!
-    redirect_to posts_path
+    redire  ct_to posts_path
   end
 
   private
